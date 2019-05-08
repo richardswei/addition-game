@@ -1,0 +1,49 @@
+button {
+	font-size: 20px;
+	padding: 10px;
+	margin: 2px;
+	background-color: #DCD0C0;
+	color: #373737;
+	border-radius: 4px;
+	border: white;
+	transition-duration: 0.2s;
+	cursor: pointer;
+}
+.button:hover {
+	background-color: #373737;
+	color: #F4F4F4;
+	border-color: #DCD0C0;
+}
+input {
+	padding: 10px;
+	margin: 10px;
+	background-color: white;
+	border-radius: 4px;
+}
+#expression {
+	text-align: center; 
+	font-size: 50px;
+	font-family: Times New Roman, serif;
+	background-color: #DCD0C0;
+	display: block;
+	position: relative;
+}
+.panels {
+
+}
+.rightPanel{
+	width:50%;
+	float: left;
+}
+.leftPanel{
+	width:50%;
+	float: left;
+}	
+.buttonset{
+	display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body {
+	background-color: #F4F4F4;
+}

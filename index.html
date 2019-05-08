@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>J's Game</title>
+	<script type="text/javascript" src="additionGameFunctions.js"></script>
+	<link rel="stylesheet" type="text/css" href="additionGameFunctions.css"></link>
+	<script type="text/javascript"></script>
+	<style type="text/css"></style>
+</head>
+<body onload="newExpression()">
+	<div class="panels">			
+		<h3>MATH IS SO FUN</h3>
+		<div class="leftPanel">
+			<div id="expression"></div>
+			<div class="buttonset">
+				<p>=</p>
+				<input id="submission" type="number" name="Answer:">
+				<div id="verdict"></div>
+			</div>
+			<div class="buttonset">				
+				<button class="button" onclick="checkYourAnswer()">Check My Answer!</button>
+				<button class="button" onclick="newExpression()">Give Me Another</button>
+			</div>
+			<br>
+		</div>
+		<div class="rightPanel">
+		</div>
+	</div>
+	<div id="dataDiv" class="hidden"></div>
+</body>
+</html>
