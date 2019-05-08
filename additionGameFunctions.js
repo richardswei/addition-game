@@ -37,8 +37,14 @@ function parseExpressionObject(expressionData) {
 function checkYourAnswer() {
 	var expressionSum = document.getElementById("dataDiv").getAttribute('sum');
 	var submission=document.getElementById("submission").value;
-	var verdict = submission==expressionSum ? "Correct!" : "Wrong :(";
-	document.getElementById("verdict").innerHTML = verdict;
+	if (submission==expressionSum) {
+		document.getElementById("verdict").innerHTML = "Correct!";
+		document.getElementById("consecutiveCorrect").innerHTML = 
+			parseInt(document.getElementById("consecutiveCorrect").innerHTML) + 1;
+	} else {
+		document.getElementById("consecutiveCorrect").innerHTML = 0;
+		document.getElementById("verdict").innerHTML = "Wrong, Try Again!";
+	}
 }
 
 function newExpression() {

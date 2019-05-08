@@ -1,20 +1,21 @@
 button {
 	font-size: 20px;
-	padding: 10px;
+	padding: 12px;
 	margin: 2px;
-	background-color: #DCD0C0;
-	color: #373737;
-	border-radius: 4px;
+	background-color: #FBA100;
+	color: white;
+	border-radius: 20px;
 	border: white;
 	transition-duration: 0.2s;
 	cursor: pointer;
 }
 .button:hover {
-	background-color: #373737;
-	color: #F4F4F4;
-	border-color: #DCD0C0;
+	background-color: #6C648B;
+	color: white;
+	border-color: #6C648B;
 }
 input {
+	font-size: 20px;
 	padding: 10px;
 	margin: 10px;
 	background-color: white;
@@ -24,9 +25,23 @@ input {
 	text-align: center; 
 	font-size: 50px;
 	font-family: Times New Roman, serif;
-	background-color: #DCD0C0;
+	background-color: #6C648B;
+	border-radius: 10px;
 	display: block;
 	position: relative;
+	color: white;
+	padding: 5px 5px 10px 5px; 
+}
+#verdict {
+	font-size: 20px;
+}
+.consecutiveText{
+	font-size: 20px;
+	padding-right: 10px;
+	background-color: 
+}
+#consecutiveCorrect{
+	font-size:40px;
 }
 .panels {
 
@@ -34,6 +49,7 @@ input {
 .rightPanel{
 	width:50%;
 	float: left;
+	text-align: center; 
 }
 .leftPanel{
 	width:50%;
@@ -45,5 +61,5 @@ input {
   justify-content: center;
 }
 body {
-	background-color: #F4F4F4;
+	background-color: #B6A19E;
 }
