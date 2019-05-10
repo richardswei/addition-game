@@ -1,8 +1,27 @@
+/* Color */
+.color-primary-0 { color: #FF6B6B }	/* Main Primary color RED */
+.color-primary-1 { color: #FFBABA }
+.color-primary-2 { color: #FF8F8F }
+.color-primary-3 { color: #FF4C4C }
+.color-primary-4 { color: #E92525 }
+
+.color-secondary-1-0 { color: #FFD36B }	/* Main Secondary color (1) YELLOW */
+.color-secondary-1-1 { color: #FFEABA }
+.color-secondary-1-2 { color: #FFDD8F }
+.color-secondary-1-3 { color: #FFC94C }
+.color-secondary-1-4 { color: #E9AE25 }
+
+.color-secondary-2-0 { color: #965BC7 }	/* Main Secondary color (2) PURPLE */
+.color-secondary-2-1 { color: #D5B3F0 }
+.color-secondary-2-2 { color: #B482DD }
+.color-secondary-2-3 { color: #7B3CAE }
+.color-secondary-2-4 { color: #65229D }
+
 button {
 	font-size: 20px;
 	padding: 12px;
 	margin: 2px;
-	background-color: #FBA100;
+	background-color: #FFD36B;
 	color: white;
 	border-radius: 20px;
 	border: white;
@@ -10,9 +29,9 @@ button {
 	cursor: pointer;
 }
 .button:hover {
-	background-color: #6C648B;
+	background-color: #965BC7;
 	color: white;
-	border-color: #6C648B;
+	border-color: #965BC7;
 }
 input {
 	font-size: 20px;
@@ -25,7 +44,7 @@ input {
 	text-align: center; 
 	font-size: 50px;
 	font-family: Times New Roman, serif;
-	background-color: #6C648B;
+	background-color: #FF6B6B;
 	border-radius: 10px;
 	display: block;
 	position: relative;
@@ -61,5 +80,5 @@ input {
   justify-content: center;
 }
 body {
-	background-color: #B6A19E;
+	background-color: #FFEABA;
 }
