@@ -1,4 +1,5 @@
 /* Color */
+/* #FA8072 salmon */
 /* #6C5CE7 ocean blue */
 /* #7B88FF blue */
 /* #FDCB6E dark sand */
@@ -31,7 +32,7 @@ input {
 	text-align: center; 
 	font-size: 50px;
 	font-family: Times New Roman, serif;
-	background-color: #6C5CE7;
+	background-color: #FA8072;
 	border-radius: 10px;
 	display: block;
 	position: relative;
